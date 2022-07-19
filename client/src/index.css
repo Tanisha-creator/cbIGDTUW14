@@ -5,7 +5,56 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+background-image: url("C:\Users\DELL\Desktop\darkTheme\dark1.JPG");
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+
+  
+ 
 }
+@media only screen and (max-width:1000px)
+{
+  body{
+    background-image: url("C:\Users\DELL\Desktop\darkTheme\darkmobile.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+.content{position:relative;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+.content p{
+  color:white;
+  position:absolute;
+  top:8rem;
+  
+ 
+
+}
+@media only screen and (max-width:1000px){
+  .content p{
+    color:white;
+    position:absolute;
+    top:16rem;
+    padding:3rem;
+  
+   
+  
+  }
+
+}
+
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
